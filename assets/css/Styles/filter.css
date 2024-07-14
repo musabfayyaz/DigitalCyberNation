@@ -1,0 +1,50 @@
+.container-filter {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    
+   
+    
+    
+  
+    
+    
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    font-weight: 900;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 10rem;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+ Add a dark background to the active button */
+ .btn.active {
+    background-color: #000000;
+    color: white;
+  } 
+
+  .btn:active 
+  {
+    background: black;
+  }
+  .row > iframe 
+  {
+    height: 100vh;
+  }
